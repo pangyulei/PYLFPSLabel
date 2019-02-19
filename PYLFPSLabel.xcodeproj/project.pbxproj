@@ -7,33 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		443460CC221A4C3B00F92DDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443460CB221A4C3B00F92DDE /* AppDelegate.swift */; };
-		443460CE221A4C3B00F92DDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443460CD221A4C3B00F92DDE /* ViewController.swift */; };
-		443460D1221A4C3B00F92DDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443460CF221A4C3B00F92DDE /* Main.storyboard */; };
-		443460D3221A4C3C00F92DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443460D2221A4C3C00F92DDE /* Assets.xcassets */; };
-		443460D6221A4C3C00F92DDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443460D4221A4C3C00F92DDE /* LaunchScreen.storyboard */; };
-		443460E1221A4D1700F92DDE /* CADisplayLink+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 443460E0221A4D1700F92DDE /* CADisplayLink+Safe.m */; };
-		443460E3221A536600F92DDE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443460E2221A536600F92DDE /* SecondViewController.swift */; };
-		443460E5221A544600F92DDE /* FPSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443460E4221A544600F92DDE /* FPSLabel.swift */; };
+		44F84C9E221B721500F31EDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F84C9D221B721500F31EDC /* AppDelegate.m */; };
+		44F84CA1221B721500F31EDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F84CA0221B721500F31EDC /* ViewController.m */; };
+		44F84CA4221B721500F31EDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F84CA2221B721500F31EDC /* Main.storyboard */; };
+		44F84CA6221B721600F31EDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F84CA5221B721600F31EDC /* Assets.xcassets */; };
+		44F84CA9221B721600F31EDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F84CA7221B721600F31EDC /* LaunchScreen.storyboard */; };
+		44F84CAC221B721600F31EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F84CAB221B721600F31EDC /* main.m */; };
+		44F84CB4221B724300F31EDC /* CADisplayLink+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F84CB2221B724300F31EDC /* CADisplayLink+Safe.m */; };
+		44F84CB7221B725E00F31EDC /* PYLFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F84CB6221B725E00F31EDC /* PYLFPSLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		443460C8221A4C3B00F92DDE /* PYLFPSLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYLFPSLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		443460CB221A4C3B00F92DDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		443460CD221A4C3B00F92DDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		443460D0221A4C3B00F92DDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		443460D2221A4C3C00F92DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		443460D5221A4C3C00F92DDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		443460D7221A4C3C00F92DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		443460DE221A4D1600F92DDE /* PYLFPSLabel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PYLFPSLabel-Bridging-Header.h"; sourceTree = "<group>"; };
-		443460DF221A4D1700F92DDE /* CADisplayLink+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CADisplayLink+Safe.h"; sourceTree = "<group>"; };
-		443460E0221A4D1700F92DDE /* CADisplayLink+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CADisplayLink+Safe.m"; sourceTree = "<group>"; };
-		443460E2221A536600F92DDE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		443460E4221A544600F92DDE /* FPSLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FPSLabel.swift; sourceTree = "<group>"; };
+		44F84C99221B721500F31EDC /* PYLFPSLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYLFPSLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F84C9C221B721500F31EDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44F84C9D221B721500F31EDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44F84C9F221B721500F31EDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44F84CA0221B721500F31EDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44F84CA3221B721500F31EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44F84CA5221B721600F31EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44F84CA8221B721600F31EDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44F84CAA221B721600F31EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44F84CAB221B721600F31EDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44F84CB2221B724300F31EDC /* CADisplayLink+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CADisplayLink+Safe.m"; sourceTree = "<group>"; };
+		44F84CB3221B724300F31EDC /* CADisplayLink+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CADisplayLink+Safe.h"; sourceTree = "<group>"; };
+		44F84CB5221B725E00F31EDC /* PYLFPSLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYLFPSLabel.h; sourceTree = "<group>"; };
+		44F84CB6221B725E00F31EDC /* PYLFPSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYLFPSLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		443460C5221A4C3B00F92DDE /* Frameworks */ = {
+		44F84C96221B721500F31EDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,58 +45,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		443460BF221A4C3B00F92DDE = {
+		44F84C90221B721500F31EDC = {
 			isa = PBXGroup;
 			children = (
-				443460CA221A4C3B00F92DDE /* PYLFPSLabel */,
-				443460C9221A4C3B00F92DDE /* Products */,
+				44F84C9B221B721500F31EDC /* PYLFPSLabel */,
+				44F84C9A221B721500F31EDC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		443460C9221A4C3B00F92DDE /* Products */ = {
+		44F84C9A221B721500F31EDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				443460C8221A4C3B00F92DDE /* PYLFPSLabel.app */,
+				44F84C99221B721500F31EDC /* PYLFPSLabel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		443460CA221A4C3B00F92DDE /* PYLFPSLabel */ = {
+		44F84C9B221B721500F31EDC /* PYLFPSLabel */ = {
 			isa = PBXGroup;
 			children = (
-				443460CB221A4C3B00F92DDE /* AppDelegate.swift */,
-				443460CD221A4C3B00F92DDE /* ViewController.swift */,
-				443460E2221A536600F92DDE /* SecondViewController.swift */,
-				443460DE221A4D1600F92DDE /* PYLFPSLabel-Bridging-Header.h */,
-				443460DD221A4C4300F92DDE /* SourceCode */,
-				443460CF221A4C3B00F92DDE /* Main.storyboard */,
-				443460D2221A4C3C00F92DDE /* Assets.xcassets */,
-				443460D4221A4C3C00F92DDE /* LaunchScreen.storyboard */,
-				443460D7221A4C3C00F92DDE /* Info.plist */,
+				44F84C9C221B721500F31EDC /* AppDelegate.h */,
+				44F84C9D221B721500F31EDC /* AppDelegate.m */,
+				44F84C9F221B721500F31EDC /* ViewController.h */,
+				44F84CA0221B721500F31EDC /* ViewController.m */,
+				44F84CA2221B721500F31EDC /* Main.storyboard */,
+				44F84CB8221B726200F31EDC /* sourcecode */,
+				44F84CA5221B721600F31EDC /* Assets.xcassets */,
+				44F84CA7221B721600F31EDC /* LaunchScreen.storyboard */,
+				44F84CAA221B721600F31EDC /* Info.plist */,
+				44F84CAB221B721600F31EDC /* main.m */,
 			);
 			path = PYLFPSLabel;
 			sourceTree = "<group>";
 		};
-		443460DD221A4C4300F92DDE /* SourceCode */ = {
+		44F84CB8221B726200F31EDC /* sourcecode */ = {
 			isa = PBXGroup;
 			children = (
-				443460DF221A4D1700F92DDE /* CADisplayLink+Safe.h */,
-				443460E0221A4D1700F92DDE /* CADisplayLink+Safe.m */,
-				443460E4221A544600F92DDE /* FPSLabel.swift */,
+				44F84CB3221B724300F31EDC /* CADisplayLink+Safe.h */,
+				44F84CB2221B724300F31EDC /* CADisplayLink+Safe.m */,
+				44F84CB5221B725E00F31EDC /* PYLFPSLabel.h */,
+				44F84CB6221B725E00F31EDC /* PYLFPSLabel.m */,
 			);
-			path = SourceCode;
+			path = sourcecode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		443460C7221A4C3B00F92DDE /* PYLFPSLabel */ = {
+		44F84C98221B721500F31EDC /* PYLFPSLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 443460DA221A4C3C00F92DDE /* Build configuration list for PBXNativeTarget "PYLFPSLabel" */;
+			buildConfigurationList = 44F84CAF221B721600F31EDC /* Build configuration list for PBXNativeTarget "PYLFPSLabel" */;
 			buildPhases = (
-				443460C4221A4C3B00F92DDE /* Sources */,
-				443460C5221A4C3B00F92DDE /* Frameworks */,
-				443460C6221A4C3B00F92DDE /* Resources */,
+				44F84C95221B721500F31EDC /* Sources */,
+				44F84C96221B721500F31EDC /* Frameworks */,
+				44F84C97221B721500F31EDC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -102,26 +106,24 @@
 			);
 			name = PYLFPSLabel;
 			productName = PYLFPSLabel;
-			productReference = 443460C8221A4C3B00F92DDE /* PYLFPSLabel.app */;
+			productReference = 44F84C99221B721500F31EDC /* PYLFPSLabel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		443460C0221A4C3B00F92DDE /* Project object */ = {
+		44F84C91221B721500F31EDC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = pangyulei;
 				TargetAttributes = {
-					443460C7221A4C3B00F92DDE = {
+					44F84C98221B721500F31EDC = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
 					};
 				};
 			};
-			buildConfigurationList = 443460C3221A4C3B00F92DDE /* Build configuration list for PBXProject "PYLFPSLabel" */;
+			buildConfigurationList = 44F84C94221B721500F31EDC /* Build configuration list for PBXProject "PYLFPSLabel" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -129,57 +131,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 443460BF221A4C3B00F92DDE;
-			productRefGroup = 443460C9221A4C3B00F92DDE /* Products */;
+			mainGroup = 44F84C90221B721500F31EDC;
+			productRefGroup = 44F84C9A221B721500F31EDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				443460C7221A4C3B00F92DDE /* PYLFPSLabel */,
+				44F84C98221B721500F31EDC /* PYLFPSLabel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		443460C6221A4C3B00F92DDE /* Resources */ = {
+		44F84C97221B721500F31EDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				443460D6221A4C3C00F92DDE /* LaunchScreen.storyboard in Resources */,
-				443460D3221A4C3C00F92DDE /* Assets.xcassets in Resources */,
-				443460D1221A4C3B00F92DDE /* Main.storyboard in Resources */,
+				44F84CA9221B721600F31EDC /* LaunchScreen.storyboard in Resources */,
+				44F84CA6221B721600F31EDC /* Assets.xcassets in Resources */,
+				44F84CA4221B721500F31EDC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		443460C4221A4C3B00F92DDE /* Sources */ = {
+		44F84C95221B721500F31EDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				443460E5221A544600F92DDE /* FPSLabel.swift in Sources */,
-				443460E3221A536600F92DDE /* SecondViewController.swift in Sources */,
-				443460E1221A4D1700F92DDE /* CADisplayLink+Safe.m in Sources */,
-				443460CE221A4C3B00F92DDE /* ViewController.swift in Sources */,
-				443460CC221A4C3B00F92DDE /* AppDelegate.swift in Sources */,
+				44F84CB7221B725E00F31EDC /* PYLFPSLabel.m in Sources */,
+				44F84CA1221B721500F31EDC /* ViewController.m in Sources */,
+				44F84CB4221B724300F31EDC /* CADisplayLink+Safe.m in Sources */,
+				44F84CAC221B721600F31EDC /* main.m in Sources */,
+				44F84C9E221B721500F31EDC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		443460CF221A4C3B00F92DDE /* Main.storyboard */ = {
+		44F84CA2221B721500F31EDC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				443460D0221A4C3B00F92DDE /* Base */,
+				44F84CA3221B721500F31EDC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		443460D4221A4C3C00F92DDE /* LaunchScreen.storyboard */ = {
+		44F84CA7221B721600F31EDC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				443460D5221A4C3C00F92DDE /* Base */,
+				44F84CA8221B721600F31EDC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -187,7 +189,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		443460D8221A4C3C00F92DDE /* Debug */ = {
+		44F84CAD221B721600F31EDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,17 +240,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		443460D9221A4C3C00F92DDE /* Release */ = {
+		44F84CAE221B721600F31EDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,21 +293,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		443460DB221A4C3C00F92DDE /* Debug */ = {
+		44F84CB0221B721600F31EDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8YWGSV4T24;
 				INFOPLIST_FILE = PYLFPSLabel/Info.plist;
@@ -317,18 +314,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = pangyulei.PYLFPSLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PYLFPSLabel/New Group/PYLFPSLabel-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		443460DC221A4C3C00F92DDE /* Release */ = {
+		44F84CB1221B721600F31EDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8YWGSV4T24;
 				INFOPLIST_FILE = PYLFPSLabel/Info.plist;
@@ -338,34 +331,32 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = pangyulei.PYLFPSLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "PYLFPSLabel/New Group/PYLFPSLabel-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		443460C3221A4C3B00F92DDE /* Build configuration list for PBXProject "PYLFPSLabel" */ = {
+		44F84C94221B721500F31EDC /* Build configuration list for PBXProject "PYLFPSLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				443460D8221A4C3C00F92DDE /* Debug */,
-				443460D9221A4C3C00F92DDE /* Release */,
+				44F84CAD221B721600F31EDC /* Debug */,
+				44F84CAE221B721600F31EDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		443460DA221A4C3C00F92DDE /* Build configuration list for PBXNativeTarget "PYLFPSLabel" */ = {
+		44F84CAF221B721600F31EDC /* Build configuration list for PBXNativeTarget "PYLFPSLabel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				443460DB221A4C3C00F92DDE /* Debug */,
-				443460DC221A4C3C00F92DDE /* Release */,
+				44F84CB0221B721600F31EDC /* Debug */,
+				44F84CB1221B721600F31EDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 443460C0221A4C3B00F92DDE /* Project object */;
+	rootObject = 44F84C91221B721500F31EDC /* Project object */;
 }
